@@ -3,10 +3,10 @@ import React from "react";
 
 const VideoItem = ({ video, onVideoSelect }) => {
   return (
-    <Grid item xs={12}>
+    <Grid item xs={10}>
       <Paper style={{ cursor: "pointer" }} onClick={() => onVideoSelect(video)}>
         <img
-          style={{ marginRight: "20px" }}
+          style={{ marginRight: "10px" }}
           alt="thumbnail"
           src={video.snippet.thumbnails.medium.url}
         />
